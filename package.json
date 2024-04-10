@@ -1,0 +1,17 @@
+{
+  "name": "magaz_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "lodash": "^4.17.21"
+  }
+}
