@@ -134,7 +134,7 @@ main {
     display: inline-block;
    display: flex;
    column-gap: 10px;
-   width: 200px;
+   width: 250px;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -417,4 +417,7 @@ left: 0px;
 .rotates {
 transform: rotate(180deg);
 transition: 0.2s ease all;
+}
+.swiper-slide img{
+    width: 100%;
 }

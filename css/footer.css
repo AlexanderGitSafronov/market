@@ -41,6 +41,7 @@ footer {
   .oclockFooter {
     display: flex;
     flex-direction: column;
+    row-gap: 8px;
   }
   .sex-items {
     display: flex;
@@ -139,3 +140,112 @@ footer {
     font-size: 12px;
     color: #545456;
   }
+
+  .footer__info_nav ul{
+    display: flex;
+    column-gap: 20px;
+  }
+  .contact__wrapper span,
+  .contact__wrapper span a{
+    display: flex;
+    column-gap: 15px;
+  }
+  .footer_wrapper_first {
+    display: flex;
+    column-gap: 60px;
+  }
+  .footer_wrapper_second {
+    display: flex;
+    column-gap: 60px;
+  }
+  .footer_wrapper_tel {
+    display: none;
+  }
+
+
+
+
+
+
+.footer__acardion {
+  margin-top: 40px;
+}
+.hide {
+    display: none;
+}
+.footer__acardeon {
+  width: 100%;
+}
+
+.footer__acardeon_item p{
+    padding: 20px 0px;
+    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.footer__acardeon_item {
+  position: relative;
+    width: 100%;
+    margin: 0 auto;
+ 
+    /* border-bottom: 1px solid #c7ced8; */
+}
+.footer__acardeon_item::before {
+  position: absolute;
+  content: '';
+  width: 300%;
+  height: 1px;
+  background-color: #c7ced8;
+  bottom: 0;
+  left: -100%;
+}
+.footer__acardeon_simbol {
+  transform: rotate(0deg);
+  transition: 0.2s ease all;
+}
+.footer__acardeon_simbol.rotates {
+transform: rotate(180deg);
+transition: 0.2s ease all;
+}
+.footer__acardeon_item_text {
+  padding: 20px 0px;
+
+}
+.footer__acardion ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+}
+.footer__acardion .contact__wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+}
+.footer_wrapper_tel .footer__info_nav ul{
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.footer_wrapper_tel .footer__info_nav ul {
+  font-size: 26px;
+}
+.footer_wrapper_tel .footer__bottom_link ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+.footer_wrapper_tel .footer__bottom_link ul li {
+  text-align: center;
+}
+.footer_wrapper_tel .footer__bottom_link ul .vito_footer{
+ font-size: 24px;
+ opacity: 1;
+ color: #fff;
+}
+.footer_wrapper_tel .footer__bottom_link {
+  margin-top: 40px;
+}

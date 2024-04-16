@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Каталог</title>
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/category.css">
@@ -12,17 +12,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/26ab02136f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./css/media/footer_media.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo"><a href="#">Vitto Rossi</a></div>
+    <header class="header" id="header">
+        <div class="header__logo"><a href="./index.html">Vitto Rossi</a></div>
         <div class="header__main_link">
             <ul>
-                <li><a href="#">Жінкам</a></li>
-                <li><a href="#">Чоловікам</a></li>
-                <li><a href="#">Догляд за взуттям</a></li>
-                <li><a href="#">Gift card</a></li>
-                <li><a href="#">Fashion blog</a></li>
+              <li><a href="../index.html">Головна</a></li>
+              <li><a href="./category.html">Всі товари</a></li>
             </ul>
         </div>
         <div class="header__right_info">
@@ -38,22 +40,43 @@
 
     <main>
         <div class="main__link">
-            <a href="#">Головна</a> <span></span>  <a href="#">Каталог</a> <span></span> <a class="active" href="#">Всі</a>
-           
+            <a href="../index.html">Головна</a> <span></span>  <a href="../category.html">Каталог</a> <span></span> <a class="active" href="#">Всі</a>
         </div>
 
         <div class="main__content">
             <div class="catalog__filter">
                 <h4>Пошук</h4>
-
                 <input class="search_input" type="text" placeholder="search">
+                <h4>Ціна (сортування)</h4>
+                <div class="sort__to_price">
+
+                  <div id="price-range"></div>
+                  <div class="price_diapazon">
+                    <div id="price__min"></div>
+                    <div id="price__max"></div>
+                  </div>
+                 
+  <script>
+   
+  </script>
+  <!-- <span id="min-price"></span> <span id="max-price"></span> -->
+  <!-- <input class="hidden_input" type="text" id="min-price" value="20"> <input class="hidden_input" type="text" id="max-price" value="80"> -->
+
+
+
+
+                </div>
                 <h4>Категорії</h4>
                 <div class="choise__category">
+                    <button class="btnProduct btnProductAll">Всі товари</button>
                     <button class="btnProduct">Взуття</button>
                     <button class="btnProduct">Блендери</button>
                     <button class="btnProduct">Міксери</button>
                     <button class="btnProduct">Пилесоси</button>
                    
+                </div>
+                <div class="show__btn">
+                  <button>Показати</button>
                 </div>
             </div>
             <div class="catalog__content">
@@ -83,6 +106,11 @@
                 <div class="tov">
 
                 </div>
+                <div class="pagination__wrapper">
+                  <div class="pagination_prev"><button>prev</button></div>
+                  <div class="pagination_page"></div>
+                  <div class="pagination_next"><button>next</button></div>
+                </div>
             </div>
         </div>
 
@@ -93,47 +121,53 @@
 
     </main>
     <footer class="footer">
+      <div class="footer_wrapper_pc">
         <div class="footer_wrapper">
-          <div class="footer__info">
-            <h3>БУДЬ БЛИЖЧЕ</h3>
-            <p>Підпишіться на новини про наші останні надходження, ексклюзивні акції та події</p>
-            <div class="sex-items"><input id="sex-wooman" type="radio" name="sex" value="wooman" data-theme="circle"><label for="sex-wooman">Для неї</label><input id="sex-man" type="radio" name="sex" value="man" data-theme="circle"><label for="sex-man">Для нього</label></div>
-            <div class="submit-block"><input type="email" name="email" value="" placeholder="E-mail*"><button type="submit" aria-label="Subscribe"><svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#right-arrow"></use></svg></button></div>
-            <div class="footer__info_nav">
+          <div class="footer_wrapper_first">
+            <div class="footer__info">
+              <h3>БУДЬ БЛИЖЧЕ</h3>
+              <p>Підпишіться на новини про наші останні надходження, ексклюзивні акції та події</p>
+              <div class="sex-items"><input id="sex-wooman" type="radio" name="sex" value="wooman" data-theme="circle"><label for="sex-wooman">Для неї</label><input id="sex-man" type="radio" name="sex" value="man" data-theme="circle"><label for="sex-man">Для нього</label></div>
+              <div class="submit-block"><input type="email" name="email" value="" placeholder="E-mail*"><button type="submit" aria-label="Subscribe"><svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#right-arrow"></use></svg></button></div>
+              <div class="footer__info_nav">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-regular fa-paper-plane"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+               
+                </ul>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <h3>Контакти</h3>
+              <div class="contact__wrapper">
+                <!-- <svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#clock"></use></svg> -->
+                <span><i class="fa-regular fa-clock"></i>  Пн-Нд 09:00 — 19:00</span>
+                <span class="oclockFooter"><a href="tel:+380993586056"><i class="fa-solid fa-phone"></i> 0 (993) 58-60-56</a><a href="tel:+380933355912"> <i class="fa-solid fa-phone"></i> 0 (933) 35-59-12</a><a href="tel:+380973894398"> <i class="fa-solid fa-phone"></i> 0 (973) 89-43-98</a></span>
+                <span><a href="viber://pa?chatURI=vittorossi" aria-label="Viber"><i class="fa-brands fa-viber"></i> Viber</a></span>
+                <span><a href="https://t.me/HotVR_bot" aria-label="Telegram"><i class="fa-regular fa-paper-plane"></i>Telegram</a></span>
+                <span><a href="mailto:info@vittorossi.ua"><i class="fa-regular fa-envelope"></i> info@vittorossi.ua</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_wrapper_second">
+            <div class="footer__company">
+              <h3>Компанія</h3>
               <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">Про компанію</a></li>
+                <li><a href="#">Ми пишаємось</a></li>
+                <li><a href="#">Вакансії та робота</a></li>
+                <li><a href="#">Наша магазини</a></li>
+                <li><a href="#">Договір офери</a></li>
               </ul>
             </div>
-          </div>
-          <div class="footer__contact">
-            <h3>Контакти</h3>
-            <div>
-              <!-- <svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#clock"></use></svg> -->
-              <span>  Пн-Нд 09:00 — 19:00</span>
-              <span class="oclockFooter"><a href="tel:+380993586056">0 (993) 58-60-56</a><a href="tel:+380933355912">0 (933) 35-59-12</a><a href="tel:+380973894398">0 (973) 89-43-98</a></span>
-              <span><a href="viber://pa?chatURI=vittorossi" aria-label="Viber">Viber</a></span>
-              <span><a href="https://t.me/HotVR_bot" aria-label="Telegram">Telegram</a></span>
-              <span><a href="mailto:info@vittorossi.ua">info@vittorossi.ua</a></span>
+            <div class="footer__client">
+              <h3>Клієнтам</h3>
+              <ul><li><a href="/ua/news/">Новини і акції</a></li><li><a href="/ua/about/discont/">Програма лояльності</a></li><li><a href="/ua/about/delivery/">Доставка і оплата</a></li><li><a href="/ua/about/delivery/warranty-and-return/">Гарантія і повернення</a></li><li><a href="/ua/contacts/feedback/">Задати питання</a></li><li><a href="/ua/instruction/">Інструкція з догляду</a></li></ul>
             </div>
           </div>
-          <div class="footer__company">
-            <h3>Компанія</h3>
-            <ul>
-              <li><a href="#">Про компанію</a></li>
-              <li><a href="#">Ми пишаємось</a></li>
-              <li><a href="#">Вакансії та робота</a></li>
-              <li><a href="#">Наша магазини</a></li>
-              <li><a href="#">Договір офери</a></li>
-            </ul>
-          </div>
-          <div class="footer__client">
-            <h3>Клієнтам</h3>
-            <ul><li><a href="/ua/news/">Новини і акції</a></li><li><a href="/ua/about/discont/">Програма лояльності</a></li><li><a href="/ua/about/delivery/">Доставка і оплата</a></li><li><a href="/ua/about/delivery/warranty-and-return/">Гарантія і повернення</a></li><li><a href="/ua/contacts/feedback/">Задати питання</a></li><li><a href="/ua/instruction/">Інструкція з догляду</a></li></ul>
-          </div>
+        
         </div>
          
           <div class="footer_logo">
@@ -148,13 +182,73 @@
               <li><a href="">© 2024 Vitto Rossi</a></li>
             </ul>
           </div>
-      </footer>
-
+      </div>
+      <div class="footer_wrapper_tel">
+        <div class="footer__info">
+          <h3>БУДЬ БЛИЖЧЕ</h3>
+          <p>Підпишіться на новини про наші останні надходження, ексклюзивні акції та події</p>
+          <div class="sex-items"><input id="sex-wooman" type="radio" name="sex" value="wooman" data-theme="circle"><label for="sex-wooman">Для неї</label><input id="sex-man" type="radio" name="sex" value="man" data-theme="circle"><label for="sex-man">Для нього</label></div>
+          <div class="submit-block"><input type="email" name="email" value="" placeholder="E-mail*"><button type="submit" aria-label="Subscribe"><svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#right-arrow"></use></svg></button></div>
+        </div>
+        <div class="footer__acardion">
+            <div class="footer__acardeon_item">
+                <p>Контакти <span class="footer__acardeon_simbol"><i class="fa-solid fa-angle-up"></i></span></p>
+                <div class="footer__acardeon_item_text hide">
+                  <div class="contact__wrapper">
+                    <!-- <svg><use xlink:href="/local/templates/aspiration/img/general/sprite.svg#clock"></use></svg> -->
+                    <span><i class="fa-regular fa-clock"></i>  Пн-Нд 09:00 — 19:00</span>
+                    <span class="oclockFooter"><a href="tel:+380993586056"><i class="fa-solid fa-phone"></i> 0 (993) 58-60-56</a><a href="tel:+380933355912"> <i class="fa-solid fa-phone"></i> 0 (933) 35-59-12</a><a href="tel:+380973894398"> <i class="fa-solid fa-phone"></i> 0 (973) 89-43-98</a></span>
+                    <span><a href="viber://pa?chatURI=vittorossi" aria-label="Viber"><i class="fa-brands fa-viber"></i> Viber</a></span>
+                    <span><a href="https://t.me/HotVR_bot" aria-label="Telegram"><i class="fa-regular fa-paper-plane"></i>Telegram</a></span>
+                    <span><a href="mailto:info@vittorossi.ua"><i class="fa-regular fa-envelope"></i> info@vittorossi.ua</a></span>
+                  </div>
+                </div>
+            </div>
+            <div class="footer__acardeon_item">
+                <p>Компанія <span class="footer__acardeon_simbol"><i class="fa-solid fa-angle-up"></i></span></p>
+                <div class="footer__acardeon_item_text hide">
+                  <ul>
+                    <li><a href="#">Про компанію</a></li>
+                    <li><a href="#">Ми пишаємось</a></li>
+                    <li><a href="#">Вакансії та робота</a></li>
+                    <li><a href="#">Наша магазини</a></li>
+                    <li><a href="#">Договір офери</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="footer__acardeon_item">
+                <p>Клієнтам <span class="footer__acardeon_simbol"><i class="fa-solid fa-angle-up"></i></span></p>
+                <div class="footer__acardeon_item_text hide">
+                  <ul><li><a href="/ua/news/">Новини і акції</a></li><li><a href="/ua/about/discont/">Програма лояльності</a></li><li><a href="/ua/about/delivery/">Доставка і оплата</a></li><li><a href="/ua/about/delivery/warranty-and-return/">Гарантія і повернення</a></li><li><a href="/ua/contacts/feedback/">Задати питання</a></li><li><a href="/ua/instruction/">Інструкція з догляду</a></li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info_nav">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-paper-plane"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+         
+          </ul>
+        </div>
+        <div class="footer__bottom_link">
+          <ul>
+            <li><a class="vito_footer" href="#"> VITTO ROSI</a></li>
+            <li><a href="#">Умови використання</a></li>
+      
+            <li><a href="#">Політика конфіденційності</a></li>
+    
+            <li><a href="">© 2024 Vitto Rossi</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
       
 
 
-
+  
         <script src="./js/category.js"></script>
         <script src="./js/cart.js"></script>
 </body>

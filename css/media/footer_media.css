@@ -1,0 +1,36 @@
+@media (max-width: 1400px) { 
+    
+ }
+@media (max-width: 1200px) { 
+    .footer_wrapper_first {
+        display: flex;
+        column-gap: 20px;
+      }
+ }
+@media (max-width: 992px) { 
+    .footer_wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    main {
+        margin-bottom: 960px;
+    }
+    .footer_wrapper_first {
+        display: flex;
+        justify-content: space-between;
+      }
+ }
+@media (max-width: 768px) { 
+    
+ }
+@media (max-width: 576px) { 
+    .footer_wrapper_pc {
+        display: none;
+    }
+    .footer_wrapper_tel {
+        display: block;
+    }
+    main {
+        margin-bottom: 760px;
+    }
+ }

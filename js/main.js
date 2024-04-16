@@ -79,41 +79,23 @@ btnOpenDesc.addEventListener('click',()=>{
 })
 
 
-let shoesList = document.querySelector('.mySwiper2_Woman')
-const url = "http://localhost:8080/shoes"
 
-const getShoes = () => {
-    fetch(url)
-    .then((resolve)=> resolve.json())
-    .then((resolve)=> {
-        resolve.forEach((item)=>{
-            shoesList.innerHTML += `
-            <div class="swiper-slide"><div class="card">
-      <a href="#">
-        <div class="card__img">
-          <img class="item__image1" src="${item.images}" alt="">
-          <img class="item__image2" src="${item.images2}" alt="">
-          <div class="card__img_info">
-            <div class="new__info"><span>Новинка</span></div>
-            <div class="new__info_sale">-20%</div>
-          </div>
-         
-        </div>
-      </a>
-      <div class="card__desc">
-        <p>${item.title}</p>
-        <p><span>4 868 грн</span><span>${item.price} грн</span></p>
-      </div>
-    </div></div>
-            `
-        })
+
+
+
+
+// Отображение акардиона
+const acardeonFooter = document.querySelectorAll('.footer__acardeon_item p');
+acardeonFooter.forEach((item) => {
+    item.addEventListener('click', (e) => {
+            e.target.nextElementSibling.classList.toggle('hide'); 
+            if(e.target.nextElementSibling.classList.contains('hide')){
+                item.parentElement.getElementsByClassName('footer__acardeon_simbol')[0].classList.remove('rotates');
+             
+            } else {
+                item.parentElement.getElementsByClassName('footer__acardeon_simbol')[0].classList.add('rotates');
+             
+            }
     })
-    .catch((err)=>console.log(err))
-}
-
-getShoes()
-
-
-
-
+})
 
