@@ -3,7 +3,7 @@ const newWeekDataWooman = document.querySelector('.swiper__new_week')
 const newWeekDataMan = document.querySelector('.swiper__new_week_man') 
 const woomanHit = document.querySelector('.wooman_hit') 
 const manHit = document.querySelector('.man_hit') 
-let url = "https://market-nine-sepia.vercel.app/product?";
+let url = "/product?";
 const getNewWeekDataWooman = ()=>{
     fetch(url + `new__week_wooman=new`)
     .then((resolve)=> resolve.json())

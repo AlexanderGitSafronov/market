@@ -13,7 +13,7 @@ const btnChoiseProduct = document.querySelector('.choise__category')
 
 
 
-let url = "https://market-nine-sepia.vercel.app/product?";
+let url = "/product?";
 let filterPrice = ''
 let filteCategory = ''
 let filteGender = ''
