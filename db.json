@@ -6,12 +6,12 @@
                 "title": "Кросівки №1",
                 "product": "Взуття",
                 "gender": "wooman",
-                "color": ["Червоний","Чорний","Бордо"],
+                "color": "red",
                 "category": "cad",
                 "size": [40,41,42,43],
                 "price": 990,
-                "images": "../tovar/images/Кросівки(77-79)/1.png",
-                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "images": "./images/Кросівки(77-79)/1.png",
+                "images2": "./images/Кросівки(77-79)/3.png",
                 "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
@@ -26,12 +26,12 @@
                     "Колір": "Білий"
                 },
                 "imgCarusel": {
-                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
-                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
-                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
-                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
-                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
-                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
                 },
                 "cartCount": 1,
                 "cartPrice": 990
@@ -46,8 +46,8 @@
                 "category": "cad",
                 "size": [41,42,43,44],
                 "price": 1200,
-                "images": "../tovar/images/Кросівки(77-79)/1.png",
-                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "images": "./images/Кросівки(77-79)/1.png",
+                "images2": "./images/Кросівки(77-79)/3.png",
                 "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
@@ -62,12 +62,12 @@
                     "Колір": "Білий"
                 },
                 "imgCarusel": {
-                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
-                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
-                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
-                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
-                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
-                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
                 },
                 "cartCount": 1,
                 "cartPrice": 1200
@@ -82,8 +82,8 @@
                 "category": "cad",
                 "size": [36,37,38,39],
                 "price": 1900,
-                "images": "../tovar/images/Кросівки(77-79)/1.png",
-                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "images": "./images/Кросівки(77-79)/1.png",
+                "images2": "./images/Кросівки(77-79)/3.png",
                 "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
@@ -98,12 +98,12 @@
                     "Колір": "Білий"
                 },
                 "imgCarusel": {
-                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
-                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
-                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
-                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
-                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
-                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
                 },
                 "cartCount": 1,
                 "cartPrice": 1900
@@ -116,8 +116,8 @@
                 "color": "red",
                 "category": "cad",
                 "price": 3000,
-                "images": "../tovar/images/Кросівки(77-79)/1.png",
-                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "images": "./images/Кросівки(77-79)/1.png",
+                "images2": "./images/Кросівки(77-79)/3.png",
                 "charakteristicsLeft": {
                     "Верх": "Натуральна шкіра, нубук",
                     "Підкладка": "Натуральна шкіра",
@@ -129,12 +129,12 @@
                     "Колір": "Білий"
                 },
                 "imgCarusel": {
-                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
-                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
-                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
-                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
-                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
-                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
                 },
                 "cartCount": 1,
                 "cartPrice": 3000

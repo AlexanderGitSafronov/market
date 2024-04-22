@@ -10,10 +10,7 @@ const filterSearch = document.querySelector('.search_input')
 
 const btnChoiseProduct = document.querySelector('.choise__category')
 
-
-
-
-let url = "http://localhost:8080/product?";
+let url = "/api/product?";
 let filterPrice = ''
 let filteCategory = ''
 let filteGender = ''

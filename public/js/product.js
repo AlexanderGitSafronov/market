@@ -63,7 +63,7 @@ console.log(sliderAll)
 const actualLink = document.querySelector('.main__link .active')
 
 console.log(location)
-let url = "http://localhost:8080/product/"+`${location.search.split('=')[1]}`;
+let url = "/api/product/"+`${location.search.split('=')[1]}`;
 const getOneProduct = ()=>{
     fetch(url)
     .then((resolve)=> resolve.json())
