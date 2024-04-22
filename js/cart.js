@@ -1,16 +1,6 @@
 let basketData = [];
 
-if(document.querySelectorAll('.btn__size')){
-    const btnSize = document.querySelectorAll('.btn__size')
-    btnSize.forEach((item) => {
-    item.addEventListener('click', ()=>{
-        btnSize.forEach((btn) => {
-            btn.classList.remove('active')
-        })
-        item.classList.add('active')
-    })
-})
-}
+
 
 
 
@@ -19,11 +9,22 @@ if(document.querySelector('.add_cart')){
 const addCart = document.querySelector('.add_cart')
 addCart.addEventListener('click', ()=>{
    
-    let size = document.querySelector('.btn__size.active span').textContent
-    let name = document.querySelector('.name').textContent
-    let id = document.querySelector('.id').textContent
-    let price = document.querySelector('.price').textContent
-    let img = document.querySelector('.img').textContent
+    
+    let size = '';
+    if(document.querySelector('.btn__size.active span')){
+        size = document.querySelector('.btn__size.active span').textContent
+    } else {
+        size = '';
+    }
+    
+    let name = document.querySelector('.cart_name').textContent
+    let id = document.querySelector('.cart_id').textContent
+    let price = document.querySelector('.tovar__price_title').textContent
+    let cartPrice = document.querySelector('.cart_price').textContent
+    let img = document.querySelector('.cart_img').textContent
+    let article = document.querySelector('.cart_article').textContent
+    let cartCount = document.querySelector('.cart_count_prod').textContent
+    let articleActual = article+size
 
     if(localStorage.getItem('basket') !== null) {
         basketData = JSON.parse(localStorage.getItem('basket'))
@@ -35,7 +36,10 @@ addCart.addEventListener('click', ()=>{
             name,
             size,
             price,
-            img
+            cartPrice,
+            img,
+            articleActual,
+            cartCount
         }]
        
         setLocalStorage()
@@ -58,7 +62,10 @@ addCart.addEventListener('click', ()=>{
             name,
             size,
             price,
-            img
+            cartPrice,
+            img,
+            articleActual,
+            cartCount
         }]
         // console.log(basketData)
         
@@ -111,22 +118,22 @@ if(document.querySelector('.basket__carts')){
     const getBasket = ()=>{
         carts.innerHTML = ''
         basketData.forEach((item)=>{
-          
-          
             carts.innerHTML += `
-            <div class="card_tov" data-size="${item.size}">
+            <div class="card_tov"  data-size="${item.size}">
             <div class="card_tov_left">
-
             <div class="img_tovar"><img src="${item.img}" alt=""></div>
-            <div>
+            <div class="wrapper_info">
             <div class="name">${item.name}</div>
-            <div class="size">${item.size} р</div>
-            <div class="price">${item.price} грн.</div>
+            <div class="counter_wrapper" data-id="${item.id}">
+            <button class="minus"></button><div class="count_product">${item.cartCount}</div><button class="plus"></button>
+            </div>
+            ${item.size ? `<div class="size"><span class="cart_size">${item.size}</span> <span>р</span></div>` : ''}
+           
+            <div class="price"> <span class="price_product">${item.price}</span>  <span></span>грн.</div>
             </div>
             </div>
-                        
-                        <button class="basket__card_del" id=${item.id}>X</button>
-                    </div>
+            <button class="basket__card_del" id=${item.id}>X</button>
+            </div>
             `
         })
        
@@ -138,7 +145,7 @@ if(document.querySelector('.basket__carts')){
             // console.log(sizeFind)
            
                 basketData = basketData.filter(el=> el !== sizeFind)
-                console.log(basketData)
+            
                 localStorage.setItem('basket', JSON.stringify(basketData))
               
                
@@ -155,16 +162,110 @@ if(document.querySelector('.basket__carts')){
 
 
 
+
+
+    const counterWrapper = document.querySelectorAll('.counter_wrapper')
+
+    counterWrapper.forEach((item)=>{
+        item.addEventListener('click', (e)=>{
+            if(e.target.classList.contains('plus')){
+               
+                let dataId =  e.target.parentElement.dataset.id
+                if(e.target.parentElement.parentElement.querySelector('.cart_size')){
+                    let dataSize = e.target.parentElement.parentElement.querySelector('.cart_size').textContent
+
+                    basketData.find(product => product.id === dataId && product.size === dataSize).cartCount++
+                    localStorage.setItem('basket', JSON.stringify(basketData))
+                    e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
+                    
+                   
+                  
+                     basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice + +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
+                     console.log(basketData)
+                     localStorage.setItem('basket', JSON.stringify(basketData))
+                     let totalBasket = document.querySelector('.total__sum')
+                     totalSumResult(totalBasket)
+                     getBasket()
+                } else {
+            
+                    basketData.find(product => product.id === dataId).cartCount++
+                    localStorage.setItem('basket', JSON.stringify(basketData))
+                    e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
+                    
+                   
+                  
+                     basketData.find(product => product.id === dataId).cartPrice = +basketData.find(product => product.id === dataId).cartPrice + +basketData.find(product => product.id === dataId).price
+                     console.log(basketData)
+                     localStorage.setItem('basket', JSON.stringify(basketData))
+                     let totalBasket = document.querySelector('.total__sum')
+                     totalSumResult(totalBasket)
+                     getBasket()
+                }
+               
+
+               
+            }
+            if(e.target.classList.contains('minus')){
+                
+                if(e.target.parentElement.querySelector('.count_product').textContent < 2){
+                    return
+                } else {
+                    if(e.target.parentElement.parentElement.querySelector('.cart_size')){
+                        let dataId =  e.target.parentElement.dataset.id
+                        let dataSize = e.target.parentElement.parentElement.querySelector('.cart_size').textContent
+                        basketData.find(product => product.id === dataId && product.size === dataSize).cartCount--
+                        localStorage.setItem('basket', JSON.stringify(basketData))
+                        e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
+        
+                        basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice - +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
+                        console.log(basketData)
+                        localStorage.setItem('basket', JSON.stringify(basketData))
+                        let totalBasket = document.querySelector('.total__sum')
+                        totalSumResult(totalBasket)
+                        getBasket()
+                    } else {
+                        let dataId =  e.target.parentElement.dataset.id
+                     
+                        basketData.find(product => product.id === dataId).cartCount--
+                        localStorage.setItem('basket', JSON.stringify(basketData))
+                        e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
+        
+                        basketData.find(product => product.id === dataId).cartPrice = +basketData.find(product => product.id === dataId).cartPrice - +basketData.find(product => product.id === dataId).price
+                        console.log(basketData)
+                        localStorage.setItem('basket', JSON.stringify(basketData))
+                        let totalBasket = document.querySelector('.total__sum')
+                        totalSumResult(totalBasket)
+                        getBasket()
+                    }
+               
+                }
+                
+            }
+            
+        })
+    })
+
+
+
     }
     
     
 
     getBasket()
+
+
+
+
+       
+
+
+   
+
+
+
 }
 
 console.log(basketData)
-
-
 
 
 if(document.querySelector('.total__sum')){
@@ -173,13 +274,14 @@ if(document.querySelector('.total__sum')){
 }
 function totalSumResult(totalBasket){
     totalBasket.textContent = basketData.reduce((acc,rec) => {
-        return acc + +rec.price 
+        return acc + +rec.cartPrice 
     }, 0)
 }
-
-
-
-
+function totalSumResultMinus(totalBasket){
+    totalBasket.textContent = basketData.reduce((acc,rec) => {
+        return acc - +rec.cartPrice 
+    }, 0)
+}
 
 
 function countCart() {

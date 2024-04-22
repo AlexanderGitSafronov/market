@@ -47,6 +47,16 @@ const characteristicAllLeft = document.querySelector('.characteristics_left')
 const characteristicAllRight = document.querySelector('.characteristics_right')
 
 
+const cartId = document.querySelector('.cart_id')
+const cartArticle = document.querySelector('.cart_article')
+const cartName = document.querySelector('.cart_name')
+const cartPrice = document.querySelector('.cart_price')
+const cartImg = document.querySelector('.cart_img')
+const cartCount = document.querySelector('.cart_count_prod')
+
+
+
+
 const sliderAll = document.querySelectorAll('.swiper-wrapper')
 console.log(sliderAll)
 
@@ -66,6 +76,40 @@ const getOneProduct = ()=>{
         let charakteristicsRight = resolve.charakteristicsRight
         let img = resolve.imgCarusel
         console.log(img)
+
+        cartId.textContent = resolve.id
+        cartArticle.textContent = resolve.article
+        cartName.textContent = resolve.title
+        cartPrice.textContent = resolve.cartPrice
+        cartImg.textContent = resolve.images
+        cartCount.textContent = resolve.cartCount
+
+
+        if(!resolve.size){
+            document.querySelector('.wrapper__tovar_size').classList.add('hidden');
+        } else {
+            resolve.size.forEach((item,idx)=>{
+                document.querySelector('.wrapper__tovar_size').innerHTML += `
+                <div class="btn__size ${idx===0? "active" : ''}"><span>${item}</span></div>
+                `
+            })
+
+            const btnSize = document.querySelectorAll('.btn__size')
+    btnSize.forEach((item) => {
+    item.addEventListener('click', ()=>{
+        btnSize.forEach((btn) => {
+            btn.classList.remove('active')
+        })
+        item.classList.add('active')
+    })
+})
+           
+        }
+
+    
+
+    
+
         for (const key in charakteristicsleft) {
             characteristicAllLeft.innerHTML += `
             <div class="characteristics_line">
@@ -117,6 +161,8 @@ const getOneProduct = ()=>{
     })
     .catch((err)=>console.log(err))
 }
+
+
 getOneProduct()
 
 

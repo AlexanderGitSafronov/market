@@ -347,3 +347,11 @@ select {
   background-color: #000;
   color: #fff;
 }
+
+.noUi-connect {
+  background: #000 !important;
+}
+.main__content {
+  max-width: 1254px;
+  margin: 0 auto;
+}

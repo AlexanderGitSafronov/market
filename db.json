@@ -2,16 +2,16 @@
     "product": [
             {
                 "id": 1,
-                "title": "Кросівки",
+                "article": "Кросівки (77-79)/",
+                "title": "Кросівки №1",
                 "product": "Взуття",
                 "gender": "wooman",
                 "color": "red",
                 "category": "cad",
-                "size": "26",
+                "size": [40,41,42,43],
                 "price": 990,
                 "images": "../tovar/images/Кросівки(77-79)/1.png",
                 "images2": "../tovar/images/Кросівки(77-79)/3.png",
-                "all_size": "39 40 41 42 43",
                 "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
@@ -32,58 +32,112 @@
                     "url4": "../tovar/images/Кросівки(77-79)/4.png",
                     "url5": "../tovar/images/Кросівки(77-79)/5.png",
                     "url6": "../tovar/images/Кросівки(77-79)/6.png"
-                }
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
                 "id": 2,
-                "title": "Чабрики",
+                "article": "Кросівки (77-79)/",
+                "title": "Кросівки №2",
                 "product": "Взуття",
                 "gender": "wooman",
                 "color": "red",
-                "brand": "Crop",
-                "category": "cros",
-                "size": "26",
+                "category": "cad",
+                "size": [41,42,43,44],
                 "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44",
-                "count_color": "4 кольори",
+                "images": "../tovar/images/Кросівки(77-79)/1.png",
+                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "count_color": "2 кольори",
                 "new__week_wooman": "new",
-                "hit__man": "hit"
+                "hit__man": "hit",
+                "charakteristicsLeft": {
+                    "Верх": "Натуральна шкіра, нубук",
+                    "Підкладка": "Натуральна шкіра",
+                    "Підошва": "Поліуретан",
+                    "Внутрішня підошва": "ЕВА"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий"
+                },
+                "imgCarusel": {
+                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
+                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
+                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
+                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
+                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
+                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1200
             },
             {
                 "id": 3,
-                "title": "Кросівки11",
+                "article": "Кросівки (77-79)/",
+                "title": "Кросівки №3",
                 "product": "Взуття",
-                "gender": "man",
+                "gender": "wooman",
                 "color": "red",
-                "brand": "adidas",
-                "category": "cros",
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43",
-                "count_color": "3 кольори",
+                "category": "cad",
+                "size": [36,37,38,39],
+                "price": 1900,
+                "images": "../tovar/images/Кросівки(77-79)/1.png",
+                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "count_color": "2 кольори",
                 "new__week_wooman": "new",
-                "hit__man": "hit"
+                "hit__man": "hit",
+                "charakteristicsLeft": {
+                    "Верх": "Натуральна шкіра, нубук",
+                    "Підкладка": "Натуральна шкіра",
+                    "Підошва": "Поліуретан",
+                    "Внутрішня підошва": "ЕВА"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий"
+                },
+                "imgCarusel": {
+                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
+                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
+                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
+                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
+                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
+                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1900
             },
             {
                 "id": 4,
-                "title": "Nike 2 CL",
-                "product": "Взуття",
-                "gender": "man",
+                "article": "Пилесос/",
+                "title": "Пилесос №1",
+                "product": "Пилесоси",
                 "color": "red",
-                "brand": "adidas",
-                "category": "cros",
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_wooman": "new",
-                "hit__man": "hit"
+                "category": "cad",
+                "price": 3000,
+                "images": "../tovar/images/Кросівки(77-79)/1.png",
+                "images2": "../tovar/images/Кросівки(77-79)/3.png",
+                "charakteristicsLeft": {
+                    "Верх": "Натуральна шкіра, нубук",
+                    "Підкладка": "Натуральна шкіра",
+                    "Підошва": "Поліуретан",
+                    "Внутрішня підошва": "ЕВА"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий"
+                },
+                "imgCarusel": {
+                    "url1": "../tovar/images/Кросівки(77-79)/1.png",
+                    "url2": "../tovar/images/Кросівки(77-79)/2.png",
+                    "url3": "../tovar/images/Кросівки(77-79)/3.png",
+                    "url4": "../tovar/images/Кросівки(77-79)/4.png",
+                    "url5": "../tovar/images/Кросівки(77-79)/5.png",
+                    "url6": "../tovar/images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 3000
             },
             {
                 "id": 5,

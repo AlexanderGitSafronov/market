@@ -184,6 +184,8 @@ document.querySelector('.btnProductAll').style.color = "#fff";
 
 
 
+
+
 const paginationPrevBtn = document.querySelector('.pagination_prev button')
 const paginationNextBtn = document.querySelector('.pagination_next button')
 

@@ -12,16 +12,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/26ab02136f.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="../css/media/header_media.css">
 <link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="./css/media/footer_media.css">
+<link rel="stylesheet" href="../css/media/footer_media.css">
+<link rel="stylesheet" href="../css/media/product_media.css">
 </head>
 <body>
     <header class="header">
         <div class="header__logo"><a href="../index.html">Vitto Rossi</a></div>
         <div class="header__main_link">
             <ul>
-              <li><a href="./index.html">Головна</a></li>
-              <li><a href="./category.html">Всі товари</a></li>
+              <li><a href="../index.html">Головна</a></li>
+              <li><a href="../category.html">Всі товари</a></li>
             </ul>
         </div>
         <div class="header__right_info">
@@ -65,16 +67,18 @@
                 <span class="tovar__price_title">1400</span><span> грн.</span>
             </div>
             <div class="wrapper__tovar_size">
-                <div class="btn__size active"><span>40</span></div>
+                <!-- <div class="btn__size active"><span>40</span></div>
                 <div class="btn__size"><span>41</span></div>
                 <div class="btn__size"><span>42</span></div>
-                <div class="btn__size"><span>43</span></div>
+                <div class="btn__size"><span>43</span></div> -->
             </div>
            <div class="hide__info hidden">
-               <span class="id">1</span>
-               <span class="name">Nike Air</span>
-               <div class="price">1400</div>
-               <div class="img">../images/kedcorzina.jpeg</div>
+               <span class="cart_id">1</span>
+               <span class="cart_article">1</span>
+               <span class="cart_name">Nike Air</span>
+               <div class="cart_price">1400</div>
+               <div class="cart_img">../images/kedcorzina.jpeg</div>
+               <div class="cart_count_prod">1</div>
            </div>
 
             <button class="add_cart">Додати до кошику</button>
@@ -460,8 +464,9 @@
     <script>
        
     </script>
-    <script type="module" src="../js/cart.js"></script>
+   
     <script type="module" src="../js/product.js"></script>
+    <script type="module" src="../js/cart.js"></script>
     <!-- <script src="../js/category.js"></script> -->
 
 

@@ -6,6 +6,7 @@
 }
 a {
     text-decoration: none;
+    
 }
 ul{
     list-style: none;
@@ -32,6 +33,7 @@ ul{
  display: flex;
  column-gap: 20px;
 }
+
 .header__main_link ul li a{
     font-size: 12px;
     font-weight: 500;
@@ -41,6 +43,7 @@ ul{
     padding: 4px 6px;
     position: relative;
     color: #fff;
+   
 }
 .header__main_link ul li:hover a::after{
     position: absolute;

@@ -13,7 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/26ab02136f.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="./css/media/header_media.css">
 <link rel="stylesheet" href="./css/media/footer_media.css">
+<link rel="stylesheet" href="./css/media/index_media.css">
   </head>
   <body>
     <header class="header">
@@ -21,6 +23,7 @@
         <div class="header__main_link">
             <ul>
               <li><a href="./index.html">Головна</a></li>
+              <!-- <li><a class="blanders" href="./category.html">Блендери</a></li> -->
                 <li><a href="./category.html">Всі товари</a></li>
                 
             </ul>
@@ -110,7 +113,7 @@
 
 
 <!-- Initialize Swiper -->
-<script>
+<!-- <script>
   var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 5,
     spaceBetween: 0,
@@ -121,7 +124,7 @@
         prevEl: ".swiper-button-prev"
       },
   });
-</script>
+</script> -->
         </div>
         <div class="list__item list__item_man">
           <!-- Swiper -->
@@ -324,7 +327,7 @@
 
 
 <!-- Initialize Swiper -->
-<script>
+<!-- <script>
   var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 5,
     spaceBetween: 0,
@@ -335,7 +338,7 @@
         prevEl: ".swiper-button-prev"
       },
   });
-</script>
+</script> -->
         </div>
       </div>
       <div class="new__collection">
@@ -367,7 +370,7 @@
 
 
 <!-- Initialize Swiper -->
-<script>
+<!-- <script>
   var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 5,
     spaceBetween: 0,
@@ -378,7 +381,7 @@
         prevEl: ".swiper-button-prev"
       },
   });
-</script>
+</script> -->
         </div>
         <div class="list__item list__item_man_hit">
           <!-- Swiper -->
@@ -396,8 +399,18 @@
 
 <!-- Initialize Swiper -->
 <script>
+
+var screenWidth = window.innerWidth;
+    var slidesToShow = 5;
+    if(screenWidth < 1200 && screenWidth >= 992){
+      slidesToShow = 4
+    } else if (screenWidth < 992 && screenWidth >= 576){
+      slidesToShow = 3
+    } else if ( screenWidth < 576 ){
+      slidesToShow = 2
+    }
   var swiper2 = new Swiper(".mySwiper2", {
-    slidesPerView: 5,
+    slidesPerView: slidesToShow,
     spaceBetween: 0,
     freeMode: true,
     loop: true,
@@ -635,5 +648,6 @@
     <script src="./js/index.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/cart.js"></script>
+  
   </body>
 </html>
