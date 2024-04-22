@@ -13,7 +13,7 @@ const btnChoiseProduct = document.querySelector('.choise__category')
 
 
 
-let url = "/product?";
+let url = "http://localhost:8080/product?";
 let filterPrice = ''
 let filteCategory = ''
 let filteGender = ''

@@ -6,7 +6,7 @@
                 "title": "Кросівки №1",
                 "product": "Взуття",
                 "gender": "wooman",
-                "color": "red",
+                "color": ["Червоний","Чорний","Бордо"],
                 "category": "cad",
                 "size": [40,41,42,43],
                 "price": 990,

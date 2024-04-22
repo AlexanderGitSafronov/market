@@ -355,3 +355,9 @@ select {
   max-width: 1254px;
   margin: 0 auto;
 }
+
+.catalog__filter button,
+.filter_top select{
+  color: #000;
+  background-color: transparent;
+}
