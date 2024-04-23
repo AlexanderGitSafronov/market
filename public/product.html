@@ -19,24 +19,24 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__logo"><a href="../index.html">Vitto Rossi</a></div>
+        <div class="header__logo"><a href="/">Vitto Rossi</a></div>
         <div class="header__main_link">
             <ul>
-              <li><a href="../index.html">Головна</a></li>
-              <li><a href="../category.html">Всі товари</a></li>
+              <li><a href="/">Головна</a></li>
+              <li><a href="/catalog">Всі товари</a></li>
             </ul>
         </div>
         <div class="header__right_info">
             <!-- <div class="search"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a> </div> -->
             <div class="cart">
-                 <a href="../cart.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+                 <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a> 
                 <div class="cart_count"></div>
             </div>
         </div>
     </header>
     <main>
         <div class="main__link">
-            <a href="../index.html">Головна</a><span></span> <a href="../category.html">Каталог</a><span></span> <a class="active" href="#">Товар</a>
+            <a href="/">Головна</a><span></span> <a href="/catalog">Каталог</a><span></span> <a class="active" href="#">Товар</a>
         </div>
         <div class="main__wrapper_flex">
             <div class="main__galery">
@@ -66,12 +66,24 @@
             <div class="tovar__price">
                 <span class="tovar__price_title">1400</span><span> грн.</span>
             </div>
-            <div class="wrapper__tovar_size">
-                <!-- <div class="btn__size active"><span>40</span></div>
-                <div class="btn__size"><span>41</span></div>
-                <div class="btn__size"><span>42</span></div>
-                <div class="btn__size"><span>43</span></div> -->
+            <div class="product__size">
+              <h4>Розмір:</h4> 
+              <div class="wrapper__tovar_size">
+                
+                  <!-- <div class="btn__size active"><span>40</span></div>
+                  <div class="btn__size"><span>41</span></div>
+                  <div class="btn__size"><span>42</span></div>
+                  <div class="btn__size"><span>43</span></div> -->
+              </div>
             </div>
+            
+            <div class="product__color">
+              <h4>Колір:</h4> 
+              <div class="wrapper__tovar_color">
+            
+              </div>
+            </div>
+            
            <div class="hide__info hidden">
                <span class="cart_id">1</span>
                <span class="cart_article">1</span>
@@ -79,6 +91,7 @@
                <div class="cart_price">1400</div>
                <div class="cart_img">../images/kedcorzina.jpeg</div>
                <div class="cart_count_prod">1</div>
+               <div class="color_product"></div>
            </div>
 
             <button class="add_cart">Додати до кошику</button>

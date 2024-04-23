@@ -355,3 +355,71 @@ select {
   max-width: 1254px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+.color-checkbox {
+  display: none;
+}
+
+.color-checkbox + label {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+  /* left: 50%; */
+}
+
+.color-checkbox:checked + label {
+  border-color: #333;
+  /* border-width: 4px; */
+}
+.color-checkbox:checked + label::before {
+  content: '\2713';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.color-checkbox + label:hover {
+  border-color: #666;
+}
+.color-option {
+  /* padding: 10px; */
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.color-option label  {
+display: flex;
+justify-content: center;
+}
+.color-option label span {
+  margin-top: 25px;
+  /* position: absolute;
+  top: 26px;
+  left: -100%; */
+  /* transform: translateX(-50%); */
+}
+
+.filter__selector_color {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+ row-gap: 20px;
+}

@@ -16,6 +16,13 @@ addCart.addEventListener('click', ()=>{
     } else {
         size = '';
     }
+
+    let color = '';
+    if(document.querySelector('.btn__color.active span')){
+        color = document.querySelector('.btn__color.active span').textContent
+    } else {
+        color = '';
+    }
     
     let name = document.querySelector('.cart_name').textContent
     let id = document.querySelector('.cart_id').textContent
@@ -39,7 +46,8 @@ addCart.addEventListener('click', ()=>{
             cartPrice,
             img,
             articleActual,
-            cartCount
+            cartCount,
+            color
         }]
        
         setLocalStorage()
@@ -48,7 +56,7 @@ addCart.addEventListener('click', ()=>{
         // console.log(basketData)
     } else {
         console.log(basketData)
-       let sizeFind =  basketData.find((el)=> el.size === size && el.id === id)
+       let sizeFind =  basketData.find((el)=> el.size === size && el.color === color && el.id === id)
        basketData = JSON.parse(localStorage.getItem('basket'))
         console.log(sizeFind)
        if(sizeFind) {
@@ -65,7 +73,8 @@ addCart.addEventListener('click', ()=>{
             cartPrice,
             img,
             articleActual,
-            cartCount
+            cartCount,
+            color
         }]
         // console.log(basketData)
         
@@ -128,7 +137,7 @@ if(document.querySelector('.basket__carts')){
             <button class="minus"></button><div class="count_product">${item.cartCount}</div><button class="plus"></button>
             </div>
             ${item.size ? `<div class="size"><span class="cart_size">${item.size}</span> <span>р</span></div>` : ''}
-           
+            ${item.color ? `<div class="color"><span class="cart_color">${item.color}</span> </div>` : ''}
             <div class="price"> <span class="price_product">${item.price}</span>  <span></span>грн.</div>
             </div>
             </div>
@@ -173,14 +182,15 @@ if(document.querySelector('.basket__carts')){
                 let dataId =  e.target.parentElement.dataset.id
                 if(e.target.parentElement.parentElement.querySelector('.cart_size')){
                     let dataSize = e.target.parentElement.parentElement.querySelector('.cart_size').textContent
+                    let dataColor = e.target.parentElement.parentElement.querySelector('.cart_color').textContent
 
-                    basketData.find(product => product.id === dataId && product.size === dataSize).cartCount++
+                    basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartCount++
                     localStorage.setItem('basket', JSON.stringify(basketData))
                     e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
                     
                    
                   
-                     basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice + +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
+                     basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartPrice + +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
                      console.log(basketData)
                      localStorage.setItem('basket', JSON.stringify(basketData))
                      let totalBasket = document.querySelector('.total__sum')
@@ -213,11 +223,12 @@ if(document.querySelector('.basket__carts')){
                     if(e.target.parentElement.parentElement.querySelector('.cart_size')){
                         let dataId =  e.target.parentElement.dataset.id
                         let dataSize = e.target.parentElement.parentElement.querySelector('.cart_size').textContent
-                        basketData.find(product => product.id === dataId && product.size === dataSize).cartCount--
+                        let dataColor = e.target.parentElement.parentElement.querySelector('.cart_color').textContent
+                        basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartCount--
                         localStorage.setItem('basket', JSON.stringify(basketData))
                         e.target.parentElement.querySelector('.count_product').textContent = basketData.find(product => product.id === dataId).cartCount
         
-                        basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize).cartPrice - +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
+                        basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartPrice = +basketData.find(product => product.id === dataId && product.size === dataSize && product.color === dataColor).cartPrice - +Array.from(document.querySelectorAll('.price_product'))[dataId-1].textContent
                         console.log(basketData)
                         localStorage.setItem('basket', JSON.stringify(basketData))
                         let totalBasket = document.querySelector('.total__sum')

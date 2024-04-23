@@ -53,6 +53,7 @@ const cartName = document.querySelector('.cart_name')
 const cartPrice = document.querySelector('.cart_price')
 const cartImg = document.querySelector('.cart_img')
 const cartCount = document.querySelector('.cart_count_prod')
+// const colorProduct = document.querySelector('.color_product')
 
 
 
@@ -75,7 +76,7 @@ const getOneProduct = ()=>{
         let charakteristicsleft = resolve.charakteristicsLeft
         let charakteristicsRight = resolve.charakteristicsRight
         let img = resolve.imgCarusel
-        console.log(img)
+     
 
         cartId.textContent = resolve.id
         cartArticle.textContent = resolve.article
@@ -83,16 +84,19 @@ const getOneProduct = ()=>{
         cartPrice.textContent = resolve.cartPrice
         cartImg.textContent = resolve.images
         cartCount.textContent = resolve.cartCount
+        
 
 
         if(!resolve.size){
-            document.querySelector('.wrapper__tovar_size').classList.add('hidden');
+            document.querySelector('.product__size').classList.add('hidden');
         } else {
             resolve.size.forEach((item,idx)=>{
                 document.querySelector('.wrapper__tovar_size').innerHTML += `
                 <div class="btn__size ${idx===0? "active" : ''}"><span>${item}</span></div>
                 `
             })
+
+
 
             const btnSize = document.querySelectorAll('.btn__size')
     btnSize.forEach((item) => {
@@ -106,6 +110,30 @@ const getOneProduct = ()=>{
            
         }
 
+       
+        if(!resolve.color){
+            document.querySelector('.product__color').classList.add('hidden');
+        } else {
+            console.log(resolve.color)
+            resolve.color.forEach((item,idx)=>{
+                document.querySelector('.wrapper__tovar_color').innerHTML += `
+                <div class="btn__color ${idx===0? "active" : ''}"><span>${item}</span></div>
+                `
+            })
+
+
+
+            const btnColor = document.querySelectorAll('.btn__color')
+            btnColor.forEach((item) => {
+    item.addEventListener('click', ()=>{
+        btnColor.forEach((btn) => {
+            btn.classList.remove('active')
+        })
+        item.classList.add('active')
+    })
+})
+           
+        }
     
 
     

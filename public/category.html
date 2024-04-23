@@ -21,17 +21,17 @@
 </head>
 <body>
     <header class="header" id="header">
-        <div class="header__logo"><a href="./index.html">Vitto Rossi</a></div>
+        <div class="header__logo"><a href="/">Vitto Rossi</a></div>
         <div class="header__main_link">
             <ul>
-              <li><a href="../index.html">Головна</a></li>
-              <li><a href="./category.html">Всі товари</a></li>
+              <li><a href="/">Головна</a></li>
+              <li><a href="/catalog">Всі товари</a></li>
             </ul>
         </div>
         <div class="header__right_info">
             <!-- <div class="search"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a> </div> -->
             <div class="cart"> 
-              <a href="../cart.html"><i class="fa-solid fa-cart-shopping"></i>
+              <a href="/cart"><i class="fa-solid fa-cart-shopping"></i>
                 <div class="cart_count"></div></a> 
              
             </div>
@@ -41,7 +41,7 @@
 
     <main>
         <div class="main__link">
-            <a href="../index.html">Головна</a> <span></span>  <a href="../category.html">Каталог</a> <span></span> <a class="active" href="#">Всі</a>
+            <a href="/">Головна</a> <span></span>  <a href="/catalog">Каталог</a> <span></span> <a class="active" href="#">Всі</a>
         </div>
 
         <div class="main__content">
@@ -76,6 +76,43 @@
                     <button class="btnProduct">Пилесоси</button>
                    
                 </div>
+                <h4>Колір</h4>
+                <div class=" filter__selector_color">
+                  <!-- <select class="filter__selector_color" name="" id="">
+                      <option value="">Кольор</option>
+                      <option value="Білий">Білий</option>
+                      <option value="Бежевий">Бежевий</option>
+                      <option value="Червоний">Червоний</option>
+                  </select> -->
+
+
+                  <div class="color-option">
+                    <input type="checkbox" id="red" data-color="Червоний" class="color-checkbox">
+                    <label for="red" style="background-color: red;"><span>Червоний</span></label>
+                   
+                </div>
+                  <div class="color-option">
+                    <input type="checkbox" id="white" data-color="Білий" class="color-checkbox">
+                    <label for="white" style="background-color: white;"> <span>Білий</span></label>
+                   
+                </div>
+                <div class="color-option">
+                    <input type="checkbox" id="green" data-color="Зелений" class="color-checkbox">
+                    <label for="green" style="background-color: green;"> <span>Зелений</span></label>
+                   
+                </div>
+                <div class="color-option">
+                    <input type="checkbox" id="blue" data-color="Синій" class="color-checkbox">
+                    <label for="blue" style="background-color: blue;"><span>Синій</span></label>
+                    
+                </div>
+                <div class="color-option">
+                    <input type="checkbox" id="bezhevuy" data-color="Бежевий"  class="color-checkbox">
+                    <label for="bezhevuy" style="background-color: blanchedalmond;"> <span>Бежевий</span></label>
+                   
+                </div>
+
+              </div>
                 <div class="show__btn">
                   <button>Показати</button>
                 </div>

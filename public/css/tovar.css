@@ -2,8 +2,10 @@
 .wrapper__tovar_size {
     display: flex;
     column-gap: 10px;
-    margin-top: 180px;
-
+    margin-top: 10px;
+}
+.product__size {
+    margin-top:100px;
 }
 .btn__size {
     padding: 10px;
@@ -13,6 +15,20 @@
 .btn__size.active{
     background-color: #000;
     color: #fff;
+}
+.btn__color {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.btn__color.active{
+    background-color: #000;
+    color: #fff;
+}
+.wrapper__tovar_color {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
 }
 .hidden {
     display: none;
@@ -422,4 +438,7 @@ transition: 0.2s ease all;
 }
 .wrapper__tovar_size.hidden {
     display: none;
+}
+.product__color {
+    margin-top: 30px;
 }

@@ -5,6 +5,7 @@ const filterSelectorPrice = document.querySelector('.filter__selector_price')
 const filterSelectorCategory = document.querySelector('.filter__selector_category')
 const filterSelectorCategoryWrapper = document.querySelector('.filter__selector_category_wrapper')
 const filterSelectorGender = document.querySelector('.filter__selector_gender')
+const filterSelectorColor = document.querySelector('.filter__selector_color')
 const filterSelectorGenderWrapper = document.querySelector('.filter__selector_gender_wrapper')
 const filterSearch = document.querySelector('.search_input')
 
@@ -21,13 +22,16 @@ let pagination = ''+paginationCount;
 let limit = '6';
 let priceGte = '';
 let priceLte = '';
+let colorFilterWhite = '';
+let colorFilterRed = '';
 
 let resolveLength;
 
 const getShoes = () => {
- 
+ console.log(colorFilterWhite)
+ console.log(colorFilterRed)
     // fetch(url + `${filterPrice.length ? '_sort=' + filterPrice + '&' : ''}${filteCategory.length ? 'category=' + filteCategory + "&" : ''}${filteGender.length ? 'gender=' + filteGender + "&" : ''}${filteName.length ? 'q=' + filteName + "&" : ''}`)
-    fetch(url + `${pagination.length ? '_page=' + pagination + '&' : ''}${limit.length ? '_limit=' + limit + '&' : ''}${choiseProduct.length ? 'product=' + choiseProduct + '&' : ''}${filterPrice.length ? '_sort=price&_order=' + filterPrice + '&' : ''}${filteCategory.length ? 'category=' + filteCategory + "&" : ''}${filteGender.length ? 'gender=' + filteGender + "&" : ''}${filteSearch.length ? 'title_like=' + filteSearch + "&" : ''}${priceGte.length ? 'price_gte=' + priceGte + '&' : ''}${priceLte.length ? 'price_lte=' + priceLte + '&' : ''}`)
+    fetch(url + `${pagination.length ? '_page=' + pagination + '&' : ''}${limit.length ? '_limit=' + limit + '&' : ''}${choiseProduct.length ? 'product=' + choiseProduct + '&' : ''}${filterPrice.length ? '_sort=price&_order=' + filterPrice + '&' : ''}${filteCategory.length ? 'category=' + filteCategory + "&" : ''}${filteGender.length ? 'gender=' + filteGender + "&" : ''}${filteSearch.length ? 'title_like=' + filteSearch + "&" : ''}${priceGte.length ? 'price_gte=' + priceGte + '&' : ''}${priceLte.length ? 'price_lte=' + priceLte + '&' : ''}${colorFilterWhite.length ? 'color_like=' + colorFilterWhite + '&' : ''}${colorFilterRed.length ? 'color_like=' + colorFilterRed + '&' : ''}`)
     .then((resolve)=> resolve.json())
     .then((resolve)=> {
       resolveLength = resolve.length
@@ -42,7 +46,7 @@ const getShoes = () => {
         resolve.forEach((item)=>{
             shoesList.innerHTML += `
             <div class="swiper-slide"><div class="card">
-      <a href="./tovar/product.html?product=${item.id}" data-id="${item.id}">
+      <a href="/product?product=${item.id}" data-id="${item.id}">
         <div class="card__img">
           <img class="item__image1" src="${item.images}" alt="">
           <img class="item__image2" src="${item.images2}" alt="">
@@ -131,6 +135,36 @@ filterSearch.addEventListener('keyup', (e)=>{
 })
 
 
+const checkboxes = document.querySelectorAll('.color-checkbox');
+    const selectedColors = []; // Массив для хранения выбранных цветов
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+          colorFilterWhite = ''
+          colorFilterRed = ''
+            if (this.checked) {
+                selectedColors.push(this.dataset.color); // Добавляем выбранный цвет в массив
+                
+            } else {
+                const index = selectedColors.indexOf(this.dataset.color);
+                if (index !== -1) {
+                    selectedColors.splice(index, 1); // Удаляем цвет из массива, если он был отменен
+                }
+               
+            }
+            selectedColors.forEach((value) => {
+              if(value === 'Білий'){
+                colorFilterWhite = value
+              } 
+              if(value === 'Червоний'){
+                colorFilterRed = value
+              }
+            })
+            getShoes()
+  
+        });
+    });
+
+
 
 const btnProductChoise = document.querySelectorAll('.choise__category button')
 
@@ -162,7 +196,10 @@ btnChoiseProduct.addEventListener('click', (e)=>{
     filterSelectorCategoryWrapper.style.display = 'block';
     filterSelectorGenderWrapper.style.display = 'block';
     choiseProduct = '';
-    
+  }
+  if(e.target.textContent === "Пилесоси"){
+    filterSelectorCategoryWrapper.style.display = 'none';
+    filterSelectorGenderWrapper.style.display = 'none';
   }
   
   }
