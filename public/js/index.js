@@ -20,7 +20,7 @@ const getNewWeekDataWooman = ()=>{
         resolve.forEach((item)=>{
             newWeekDataWooman.innerHTML += `
     <div class="swiper-slide"><div class="card">
-    <a href="/api/product?product=${item.id}" data-id="${item.id}">
+    <a href="/product?product=${item.id}" data-id="${item.id}">
         <div class="card__img">
           <img class="item__image1" src="${item.images}" alt="">
           <img class="item__image2" src="${item.images2}" alt="">
@@ -58,7 +58,7 @@ const getNewWeekDataMan = ()=>{
         resolve.forEach((item)=>{
             newWeekDataMan.innerHTML += `
     <div class="swiper-slide"><div class="card">
-    <a href="/api/product?product=${item.id}" data-id="${item.id}">
+    <a href="/product?product=${item.id}" data-id="${item.id}">
         <div class="card__img">
           <img class="item__image1" src="${item.images}" alt="">
           <img class="item__image2" src="${item.images2}" alt="">
@@ -90,7 +90,7 @@ const getWoomanHit= ()=>{
         resolve.forEach((item)=>{
             woomanHit.innerHTML += `
     <div class="swiper-slide"><div class="card">
-    <a href="/api/product?product=${item.id}" data-id="${item.id}">
+    <a href="/product?product=${item.id}" data-id="${item.id}">
         <div class="card__img">
           <img class="item__image1" src="${item.images}" alt="">
           <img class="item__image2" src="${item.images2}" alt="">
@@ -122,7 +122,7 @@ const getManHit= ()=>{
         resolve.forEach((item)=>{
             manHit.innerHTML += `
     <div class="swiper-slide"><div class="card">
-    <a href="/api/product?product=${item.id}" data-id="${item.id}">
+    <a href="/product?product=${item.id}" data-id="${item.id}">
         <div class="card__img">
           <img class="item__image1" src="${item.images}" alt="">
           <img class="item__image2" src="${item.images2}" alt="">
