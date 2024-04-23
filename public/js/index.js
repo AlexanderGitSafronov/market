@@ -15,7 +15,6 @@ const getNewWeekDataWooman = ()=>{
         return
       }
      
-  
       newWeekDataWooman.innerHTML = '';
         resolve.forEach((item)=>{
             newWeekDataWooman.innerHTML += `
