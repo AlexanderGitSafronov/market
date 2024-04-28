@@ -43,10 +43,10 @@
                 "title": "Каструлі (НК-323)",
                 "product": "Каструлі",
                 "color": ["червоний","чорний"],
+                "siteColor": ["червоний","чорний"],
                 "price": 1990,
                 "images": "./images/Кросівки(77-79)/1.png",
                 "images2": "./images/Кросівки(77-79)/3.png",
-                "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
                 "charakteristicsLeft": {
