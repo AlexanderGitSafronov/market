@@ -3,6 +3,7 @@
             {
                 "id": 1,
                 "article": "Кросівки (77-79)/",
+                "articleAprove": "article+size+colorProduct",
                 "title": "Кросівки №1",
                 "product": "Взуття",
                 "gender": "wooman",
@@ -40,6 +41,7 @@
             {
                 "id": 2,
                 "article": "Каструлі (НК-323)/",
+                "articleAprove": "article+size+colorProduct",
                 "title": "Каструлі (НК-323)",
                 "product": "Каструлі",
                 "color": ["червоний","чорний"],
@@ -73,6 +75,7 @@
             {
                 "id": 3,
                 "article": "Блендер (ZP-068)",
+                "articleAprove": "article+size+colorProduct",
                 "title": "Блендер (ZP-068)",
                 "product": "Блендери",
                 "color": ["Білий","Бежевий"],
@@ -105,6 +108,7 @@
             {
                 "id": 4,
                 "article": "Пилесос/",
+                "articleAprove": "article+size+colorProduct",
                 "title": "Пилесос №1",
                 "product": "Пилесоси",
                 "color": ["Червоний"],
@@ -136,6 +140,7 @@
             {
                 "id": 5,
                 "article": "Капці (PT591",
+                "articleAprove": "article+colorProduct+size",
                 "title": "Капці (PT591)",
                 "product": "Взуття",
                 "gender": "wooman",
