@@ -4,16 +4,15 @@
                 "id": 1,
                 "article": "Кросівки (77-79)/",
                 "articleAprove": "article+size+colorProduct",
-                "title": "Кросівки №1",
+                "title": "Кросівки (77-79)",
                 "product": "Взуття",
                 "gender": "wooman",
-                "category": "cad",
-                "size": [40,41,42,43],
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
                 "color": ["Білий"],
                 "price": 990,
                 "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
                 "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
                 "new": "new",
@@ -40,130 +39,185 @@
             },
             {
                 "id": 2,
-                "article": "Каструлі (НК-323)/",
+                "article": "Кросівки (78-",
                 "articleAprove": "article+size+colorProduct",
-                "title": "Каструлі (НК-323)",
-                "product": "Каструлі",
-                "color": ["Червоний","Чорний"],
-                "siteColor": ["червоний","чорний"],
-                "price": 1990,
-                "images": "./images/Кросівки(77-79)/1.png",
-                "images2": "./images/Кросівки(77-79)/3.png",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "charakteristicsLeft": {
-                    "Верх": "Натуральна шкіра, нубук",
-                    "Підкладка": "Натуральна шкіра",
-                    "Підошва": "Поліуретан",
-                    "Внутрішня підошва": "ЕВА"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 1990
-            },
-            {
-                "id": 3,
-                "article": "Блендер (ZP-068)",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Блендер (ZP-068)",
-                "product": "Блендери",
-                "color": ["Білий","Бежевий"],
-                "price": 1900,
-                "images": "./images/Кросівки(77-79)/1.png",
-                "images2": "./images/Кросівки(77-79)/3.png",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "charakteristicsLeft": {
-                    "Верх": "Натуральна шкіра, нубук",
-                    "Підкладка": "Натуральна шкіра",
-                    "Підошва": "Поліуретан",
-                    "Внутрішня підошва": "ЕВА"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 1900
-            },
-            {
-                "id": 4,
-                "article": "Пилесос/",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Пилесос №1",
-                "product": "Пилесоси",
-                "color": ["Червоний"],
-                "category": "cad",
-                "price": 3000,
-                "images": "./images/Кросівки(77-79)/1.png",
-                "images2": "./images/Кросівки(77-79)/3.png",
-                "charakteristicsLeft": {
-                    "Верх": "Натуральна шкіра, нубук",
-                    "Підкладка": "Натуральна шкіра",
-                    "Підошва": "Поліуретан",
-                    "Внутрішня підошва": "ЕВА"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 3000
-            },
-            {
-                "id": 5,
-                "article": "Капці (PT591",
-                "articleAprove": "article+colorProduct+size",
-                "title": "Капці (PT591)",
+                "title": "Кросівки (78-20)",
                 "product": "Взуття",
                 "gender": "wooman",
-                "category": "cad",
-                "size": [36,37,38,39],
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
                 "color": ["Білий","Чорний"],
-                "siteColor": ["-3)/","-1)/"],
-                "price": 990,
+                "siteColor": ["20)/","19)/"],
+                "price": 1290,
                 "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
                 "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "count_color": "2 кольори",
                 "new__week_wooman": "new",
                 "hit__man": "hit",
                 "new": "new",
                 "charakteristicsLeft": {
-                    "Верх": "Натуральна шкіра, нубук",
-                    "Підкладка": "Натуральна шкіра",
-                    "Підошва": "Поліуретан",
-                    "Внутрішня підошва": "ЕВА"
+                    "Верх": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль",
+                    "Матеріал підошви": "ПВХ"
                 },
                 "charakteristicsRight": {
                     "Стиль": "Casual",
-                    "Колір": "Білий"
+                    "Колір": "Білий,Чорний"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1290
+            },
+            {
+                "id": 3,
+                "article": "Кросівки (191-310)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (191-310)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 864,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Еко-шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Екошкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Висота платформи": "4 см",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 864
+            },
+            {
+                "id": 4,
+                "article": "Кросівки (191-309)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (191-309)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1590,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Еко-шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Екошкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Висота платформи": "4 см",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1590
+            },
+            {
+                "id": 5,
+                "article": "Кросівки (191-309)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (191-309)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1590,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Еко-шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Екошкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Висота платформи": "4 см",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1590
+            },
+            {
+                "id": 6,
+                "article": "Кеди (188-219)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (188-219)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cad",
+                "size": [36,37,38,39,40,41],
+                "color": ["Чорний"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Еко-шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Екошкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Чорний",
+                    "Сезон": "Демісезон"
                 },
                 "imgCarusel": {
                     "url1": "./images/Кросівки(77-79)/1.png",
@@ -177,378 +231,880 @@
                 "cartPrice": 990
             },
             {
-                "id": 6,
-                "title": "Nike 2 CL",
-                "product": "Взуття",
-                "gender": "man",
-                "color": "red",
-                "brand": "adidas",
-                "category": "cros",
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_wooman": "new",
-                "hit__man": "hit"
-            },
-            {
                 "id": 7,
-                "title": "Nike 2 CL",
+                "article": "Кросівки (542-153)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-153)",
                 "product": "Взуття",
-                "gender": "man",
-                "color": "red",
-                "brand": "adidas",
+                "gender": "wooman",
                 "category": "cros",
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
+                "size": [36,37,38,39,40,41],
+                "color": ["Чорний"],
+                "price": 1090,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
                 "new__week_wooman": "new",
-                "hit__man": "hit"
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Штучна шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Штучна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Чорний",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1090
             },
             {
                 "id": 8,
-                "title": "Nike 2 CL",
+                "article": "Кросівки (542-140)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-140)",
                 "product": "Взуття",
-                "gender": "man",
-                "color": "red",
-                "brand": "adidas",
+                "gender": "wooman",
                 "category": "cros",
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
+                "size": [36,37,38,39,40,41],
+                "color": ["Чорний"],
+                "price": 1090,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
                 "new__week_wooman": "new",
-                "hit__man": "hit"
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Штучна шкіра",
+                    "Склад верха": "Штучна шкіра",
+                    "Матеріал устілки": "Штучна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Чорний",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1090
             },
             {
                 "id": 9,
-                "title": "Блендер",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-           
-                "size": "26",
-                "price": 1000,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "article": "Кросівки (77-87)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (77-87)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1290,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1290
             },
             {
                 "id": 10,
-                "title": "Блендер 032",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-             
-                "size": "26",
-                "price": 1400,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "article": "Кеди (188-220)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (188-220)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cad",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1290,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1290
             },
             {
                 "id": 11,
-                "title": "Блендер 055",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "article": "Кросівки (188-216)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (188-216)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
                 "id": 12,
-                "title": "Блендер 099",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "article": "Кросівки (542-103)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-103)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
                 "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "article": "Кросівки (542-146)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-146)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1399,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1399
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "id": 14,
+                "article": "Кросівки (542-153)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-153)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Чорний"],
+                "price": 1090,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Чорний",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1090
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори",
-                "new__week_man": "new",
-                "hit__woman": "hit"
+                "id": 15,
+                "article": "Кросівки (542-140)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-140)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Чорний"],
+                "price": 1090,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Чорний",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1090
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 16,
+                "article": "Кросівки (77-87)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (77-87)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1090,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1090
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 17,
+                "article": "Кросівки (188-216)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (188-216)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 18,
+                "article": "Кросівки (188-216)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (188-216)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 19,
+                "article": "Кеди (188-220)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (188-220)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "cad",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 19,
+                "article": "Кросівки (542-103)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-103)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 20,
+                "article": "Кросівки (542-146)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-146)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1399,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1399
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 21,
+                "article": "Кросівки (542-99)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-99)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 22,
+                "article": "Кросівки (542-99)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-99)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 23,
+                "article": "Кеди (77-41)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (77-41)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "ced",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1140,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1140
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 24,
+                "article": "Кросівки (77-19)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (77-19)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 1290,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 1290
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 25,
+                "article": "Кеди (530)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (530)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 684,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 684
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 26,
+                "article": "Кеди (H04-2)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (H04-2)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "ced",
+                "size": [36,37,38,39,40],
+                "color": ["Білий"],
+                "price": 684,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 684
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 27,
+                "article": "Кеди (H07-27)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (H07-27)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "ced",
+                "size": [36,37,38,39,40],
+                "color": ["Білий"],
+                "price": 684,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 684
             },
             {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
-            },
-            {
-                "id": 13,
-                "title": "Блендер 090",
-                "product": "Блендери",
-                "color": "red",
-                "brand": "adidas",
-            
-                "size": "26",
-                "price": 1200,
-                "images": "./images/card_w/w_1.jpeg",
-                "images2": "./images/card_w/w_3.jpeg",
-                "all_size": "39 40 41 42 43 44 45",
-                "count_color": "2 кольори"
+                "id": 28,
+                "article": "Кеди (H07-27)",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кеди (H07-27)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "ced",
+                "size": [36,37,38,39,40],
+                "color": ["Білий"],
+                "price": 684,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 684
             }
+           
         ]
         
     }
