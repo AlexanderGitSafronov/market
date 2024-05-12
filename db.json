@@ -155,7 +155,7 @@
             },
             {
                 "id": 5,
-                "article": "Кеди (77-41)",
+                "article": "Кеди (77-41)/",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кеди (77-41)",
                 "product": "Взуття",
@@ -354,7 +354,7 @@
                 "category": "cad",
                 "size": [36,37,38,39,40,41],
                 "color": ["Білий"],
-                "price": 1290,
+                "price": 990,
                 "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
                 "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
                 "new__week_wooman": "new",
@@ -380,7 +380,7 @@
                     "url6": "./images/Кросівки(77-79)/6.png"
                 },
                 "cartCount": 1,
-                "cartPrice": 1290
+                "cartPrice": 990
             },
             {
                 "id": 11,
@@ -648,46 +648,9 @@
                 "cartCount": 1,
                 "cartPrice": 990
             },
+           
             {
                 "id": 18,
-                "article": "Кеди (188-220)/",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Кеди (188-220)",
-                "product": "Взуття",
-                "gender": "wooman",
-                "category": "cad",
-                "size": [36,37,38,39,40,41],
-                "color": ["Білий"],
-                "price": 990,
-                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
-                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "new": "new",
-                "charakteristicsLeft": {
-                    "Склад": "Натуральна шкіра",
-                    "Склад верха": "Натуральна шкіра",
-                    "Матеріал устілки": "Натуральна шкіра",
-                    "Всередені": "Текстиль"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий",
-                    "Сезон": "Демісезон"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 990
-            },
-            {
-                "id": 19,
                 "article": "Кросівки (542-103)/",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кросівки (542-103)",
@@ -725,7 +688,7 @@
                 "cartPrice": 990
             },
             {
-                "id": 20,
+                "id": 19,
                 "article": "Кросівки (542-146)/",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кросівки (542-146)",
@@ -763,121 +726,45 @@
                 "cartPrice": 1399
             },
             {
+                "id": 20,
+                "article": "Кросівки (542-99)/",
+                "articleAprove": "article+size+colorProduct",
+                "title": "Кросівки (542-99)",
+                "product": "Взуття",
+                "gender": "wooman",
+                "category": "сros",
+                "size": [36,37,38,39,40,41],
+                "color": ["Білий"],
+                "price": 990,
+                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
+                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
+                "new__week_wooman": "new",
+                "hit__man": "hit",
+                "new": "new",
+                "charakteristicsLeft": {
+                    "Склад": "Натуральна шкіра",
+                    "Склад верха": "Натуральна шкіра",
+                    "Матеріал устілки": "Натуральна шкіра",
+                    "Всередені": "Текстиль"
+                },
+                "charakteristicsRight": {
+                    "Стиль": "Casual",
+                    "Колір": "Білий",
+                    "Сезон": "Демісезон"
+                },
+                "imgCarusel": {
+                    "url1": "./images/Кросівки(77-79)/1.png",
+                    "url2": "./images/Кросівки(77-79)/2.png",
+                    "url3": "./images/Кросівки(77-79)/3.png",
+                    "url4": "./images/Кросівки(77-79)/4.png",
+                    "url5": "./images/Кросівки(77-79)/5.png",
+                    "url6": "./images/Кросівки(77-79)/6.png"
+                },
+                "cartCount": 1,
+                "cartPrice": 990
+            },
+            {
                 "id": 21,
-                "article": "Кросівки (542-99)",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Кросівки (542-99)",
-                "product": "Взуття",
-                "gender": "wooman",
-                "category": "сros",
-                "size": [36,37,38,39,40,41],
-                "color": ["Білий"],
-                "price": 990,
-                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
-                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "new": "new",
-                "charakteristicsLeft": {
-                    "Склад": "Натуральна шкіра",
-                    "Склад верха": "Натуральна шкіра",
-                    "Матеріал устілки": "Натуральна шкіра",
-                    "Всередені": "Текстиль"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий",
-                    "Сезон": "Демісезон"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 990
-            },
-            {
-                "id": 22,
-                "article": "Кросівки (542-99)",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Кросівки (542-99)",
-                "product": "Взуття",
-                "gender": "wooman",
-                "category": "сros",
-                "size": [36,37,38,39,40,41],
-                "color": ["Білий"],
-                "price": 990,
-                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
-                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "new": "new",
-                "charakteristicsLeft": {
-                    "Склад": "Натуральна шкіра",
-                    "Склад верха": "Натуральна шкіра",
-                    "Матеріал устілки": "Натуральна шкіра",
-                    "Всередені": "Текстиль"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий",
-                    "Сезон": "Демісезон"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 990
-            },
-            {
-                "id": 23,
-                "article": "Кеди (77-41)",
-                "articleAprove": "article+size+colorProduct",
-                "title": "Кеди (77-41)",
-                "product": "Взуття",
-                "gender": "wooman",
-                "category": "cad",
-                "size": [36,37,38,39,40,41],
-                "color": ["Білий"],
-                "price": 1140,
-                "images": "./images/Кросівки(77-79)/graysneakers1.jpg",
-                "images2": "./images/Кросівки(77-79)/graysneakers2.jpg",
-                "new__week_wooman": "new",
-                "hit__man": "hit",
-                "new": "new",
-                "charakteristicsLeft": {
-                    "Склад": "Натуральна шкіра",
-                    "Склад верха": "Натуральна шкіра",
-                    "Матеріал устілки": "Натуральна шкіра",
-                    "Всередені": "Текстиль"
-                },
-                "charakteristicsRight": {
-                    "Стиль": "Casual",
-                    "Колір": "Білий",
-                    "Сезон": "Демісезон"
-                },
-                "imgCarusel": {
-                    "url1": "./images/Кросівки(77-79)/1.png",
-                    "url2": "./images/Кросівки(77-79)/2.png",
-                    "url3": "./images/Кросівки(77-79)/3.png",
-                    "url4": "./images/Кросівки(77-79)/4.png",
-                    "url5": "./images/Кросівки(77-79)/5.png",
-                    "url6": "./images/Кросівки(77-79)/6.png"
-                },
-                "cartCount": 1,
-                "cartPrice": 1140
-            },
-            {
-                "id": 24,
                 "article": "Кросівки (77-19)",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кросівки (77-19)",
@@ -916,7 +803,7 @@
                 "cartPrice": 1290
             },
             {
-                "id": 25,
+                "id": 22,
                 "article": "Кеди (530)",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кеди (530)",
@@ -955,7 +842,7 @@
                 "cartPrice": 684
             },
             {
-                "id": 26,
+                "id": 23,
                 "article": "Кеди (H04-2)",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кеди (H04-2)",
@@ -993,7 +880,7 @@
                 "cartPrice": 684
             },
             {
-                "id": 27,
+                "id": 24,
                 "article": "Кеди (H07-27)",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кеди (H07-27)",
@@ -1031,7 +918,7 @@
                 "cartPrice": 684
             },
             {
-                "id": 28,
+                "id": 25,
                 "article": "Кеди (H07-27)",
                 "articleAprove": "article+size+colorProduct",
                 "title": "Кеди (H07-27)",
